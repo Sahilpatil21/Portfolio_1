@@ -178,6 +178,25 @@ const PORTFOLIO_DATA = {
 
   projects: [
     {
+  title: "ResearchMate",
+  description:
+    "AI-powered research paper intelligence and grounded RAG platform featuring hybrid dense + sparse retrieval (ChromaDB + BM25), Cross-Encoder reranking, multi-paper comparative analysis, and multi-tenant authentication.",
+  stack: [
+    "Python",
+    "FastAPI",
+    "Google Gemini API",
+    "ChromaDB",
+    "MongoDB Atlas",
+    "Sentence-Transformers",
+    "BM25",
+    "Cloudinary",
+    "Docker"
+  ],
+  github: "https://github.com/Sahilpatil21/ResearchMate",
+  live: "https://researchmate-aqiv.onrender.com/",
+  featured: true,
+} ,
+    {
       title: "Plant Analysis Tool",
       description:
         "Full-stack plant diagnostics platform with Gemini AI, JWT auth, and MVC architecture for image and text-based analysis.",
